@@ -21,7 +21,7 @@
   <project path="bionic" name="platform_bionic" remote="derp" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="derp" />
   <project path="development" name="platform_development" remote="derp" />
-  <project path="manifest" name="platform_manifest" remote="derp" />
+  <project path="manifest" name="platform_manifest" remote="derp" revision="ten-gapps" />
 
   <!-- Build -->
   <project path="build/blueprint" name="platform_build_blueprint" remote="derp" />
@@ -123,9 +123,10 @@
 
   <!-- Vendor -->
   <project path="vendor/derp" name="platform_vendor_derp" remote="derp" />
+  <project path="vendor/gapps" name="xlxfoxxlx/android_vendor_gapps" remote="gitlab" revision="ten" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="derp" />
-  <project path="vendor/overlay" name="platform_vendor_overlay" remote="derp" />
-  <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="derp" />
+  <project path="vendor/overlay" name="platform_vendor_overlay" remote="derp" revision="ten-gapps" />
+  <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="derp" revision="ten-gapps" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="derp" />
 
 </manifest>
