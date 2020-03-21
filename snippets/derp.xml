@@ -64,8 +64,7 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="derp" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="derp" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="derp" />
-  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="derp" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="derp" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" revision="ten-pixel" />
 
   <!-- Hardware -->
   <project path="hardware/derp/interfaces" name="platform_hardware_derp_interfaces" remote="derp" />
@@ -90,7 +89,6 @@
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="derp" />
   <project path="packages/apps/DerpQuest" name="platform_packages_apps_DerpQuest" remote="derp" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="derp" />
-  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="derp" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="derp" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="derp" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="derp" />
@@ -101,8 +99,8 @@
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="derp" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="derp" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="derp" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="derp" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="derp" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" revision="ten-pixel" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" revision="ten-pixel" />
 
   <!-- Platform -->
   <project path="platform_testing" name="platform_platform_testing" remote="derp" />
@@ -124,8 +122,8 @@
   <!-- Vendor -->
   <project path="vendor/derp" name="platform_vendor_derp" remote="derp" />
   <project path="vendor/gapps" name="xlxfoxxlx/android_vendor_gapps" remote="gitlab" revision="ten" />
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="derp" />
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="derp" revision="ten-gapps" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" revision="ten-pixel" />
   <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="derp" revision="ten-gapps" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="derp" />
 
